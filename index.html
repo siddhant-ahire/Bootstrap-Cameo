@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans|Rubik">
+    <style type="text/css">
+    .jumbotron {
+        background-image: url('/img/background.jpg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        min-height: 100vh;
+    }
+    section {
+        padding-top: 4rem;
+    }
+    body{
+        font-family: 'Open Sans',sans-serif;
+    }
+    h1,h2,h3,h4,h5{
+        font-family: 'Rubik',sans-serif;
+    }
+    </style>
+</head>
+
+<body data-spy="scroll" data-target="#navScrollspy">
+    <nav class="navbar bg-primary navbar-dark navbar-expand-md fixed-top">
+        <a href="#section-top" class="navbar-brand"><i class="fa fa-camera-retro" aria-hidden="true"></i> Cameo</a>
+        <button type="button" class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" ><span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav" id="navScrollspy">
+                <li class="nav-item">
+                    <a href="#section-top" class="nav-link">To the top</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#section-description" class="nav-link">Description</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#section-trailer" class="nav-link">Trailer</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#section-showcase" class="nav-link">Showcase</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#section-features" class="nav-link">Feature</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#section-pricing" class="nav-link">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#section-Reviews" class="nav-link">Reviews</a>
+                </li>
+            </ul>
+        </div>
+        </nav>
+        <section id="section-top" class="jumbotron jumbotron-fluid text-white d-flex justify-content-center align-items-center">
+            <div class="container text-center">
+                <h1 class="display-1 text-uppercase text-primary">Cameo</h1>
+                <p class="display-4 d-none d-sm-block">Capture ervery moment</p>
+                <p class="lead">crate stunnning photos and videoes by using the buit in feature for enhancement</p>
+                <p class="lead">Share your best shots with your friends and the rest of the world instantly</p>
+                <p><strong>Download now on:</strong></p>
+                <a href="#" class="btn btn-lg btn-primary"><i class="fab fa-apple" aria-hidden="true"></i> App Store</a>
+                <a href="#" class="btn btn-lg btn-primary"><i class="fab fa-google-play" aria-hidden="true"></i> Google Play</a>
+            </div>
+        </section>
+        <div class="container">
+            <section id="section-description">
+                <h2 class="display-4 text-center">What is Cameo?</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas sapiente architecto nesciunt beatae non repellat accusamus blanditiis nam atque fugiat eligendi dolorem eius aut aliquam nihil laboriosam, explicabo error voluptatibus!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium eaque, natus doloribus molestias iure ullam quos veritatis assumenda laborum omnis consequuntur porro officiis voluptatum? Praesentium quae eum obcaecati vitae suscipit!</p>
+            </section>
+            <section id="section-trailer">
+                <h2 class="display-4 text-center">Cameo trailer</h2>
+                <p class="text-center">Watch our trailer video below to learn how Cameo works.</p>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="1110" height="624" src="https://www.youtube.com/embed/Uq5JnknTTK8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                </div>
+            </section>
+            <section id="section-showcase">
+                <h2 class="display-4 text-center">Cameo in action</h2>
+                <p class="text-center">Examples of how and where you can use Cameo.</p>
+                <div id="carousel" class="carousel slide" data-ride="carousel">
+                    <ul class="carousel-indicators">
+                        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel" data-slide-to="1"></li>
+                        <li data-target="#carousel" data-slide-to="2"></li>
+                        <li data-target="#carousel" data-slide-to="3"></li>
+                    </ul>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img src="img/showcase01.jpg" alt="slide #1" class="d-block img-fluid">
+                            <div class="carousel-caption">
+                                <h3 class="display-4">At night</h3>
+                                <p>Use Cameo at night when going out with friends.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/showcase02.jpg" alt="slide #2" class="d-block img-fluid">
+                            <div class="carousel-caption">
+                                <h3 class="display-4">At night</h3>
+                                <p>Use Cameo at night when going out with friends.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/showcase03.jpg" alt="slide #3" class="d-block img-fluid">
+                            <div class="carousel-caption">
+                                <h3 class="display-4">At night</h3>
+                                <p>Use Cameo at night when going out with friends.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/showcase04.jpg" alt="slide #4" class="d-block img-fluid">
+                            <div class="carousel-caption">
+                                <h3 class="display-4">At night</h3>
+                                <p>Use Cameo at night when going out with friends.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#carousel" class="carousel-control-prev" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a href="#carousel" class="carousel-control-next" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </section>
+            <section id="section-features">
+                <h2 class="display-4 text-center">Feature</h2>
+                <div class="row">
+                <div class="col-12 col-sm-6 col-lg-3 d-flex flex-column align-items-center mb-5">
+                    <div class="h1"><i class="fas fa-paint-brush text-info" aria-hidden="true"></i></div>
+                    <h3>Enhance your photos</h3>
+                    <p>Easily enhance your photos with a selection of editing tools,filters and effects.</p>
+                    <a href="#" class="btn btn-sm btn-info mt-auto">Read more...</a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 d-flex flex-column align-items-center mb-5">
+                    <div class="h1"><i class="fas fa-video text-info" aria-hidden="true"></i></div>
+                    <h3>Also made for videos</h3>
+                    <p>Easily enhance your photos with a selection of editing tools,filters and effects.</p>
+                    <a href="#" class="btn btn-sm btn-info mt-auto">Read more...</a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 d-flex flex-column align-items-center mb-5">
+                    <div class="h1"><i class="fab fa-instagram text-info" aria-hidden="true"></i></div>
+                    <h3>Share for Instagram</h3>
+                    <p>Easily enhance your photos with a selection of editing tools,filters and effects.</p>
+                    <a href="#" class="btn btn-sm btn-info mt-auto">Read more...</a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 d-flex flex-column align-items-center mb-5">
+                    <div class="h1"><i class="fas fa-mobile text-info" aria-hidden="true"></i></div>
+                    <h3>works on all devices</h3>
+                    <p>Easily enhance your photos with a selection of editing tools,filters and effects.</p>
+                    <a href="#" class="btn btn-sm btn-info mt-auto">Read more...</a>
+                </div>
+            </div>
+            </section>
+            <section id="section-pricing">
+                <h2 class="display-4 text-center mb-4">Choose your plan</h2>
+                <div class="row">
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card card-outline-success">
+                        <div class="card-header bg-success text-white text-center">
+                            <h2>Starter</h2>
+                            <h4>Free</h4>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Prefer if you only take pictures for fun.</p>
+                        </div>
+                    <ul class="list-group">
+                        <li class="list-group-item"><i class="fas fa-paint-brush" aria-hidden="true"></i> Enhance your photos and videoes</li>
+                        <li class="list-group-item"><i class="fab fa-instagram" aria-hidden="true"></i> Share on Instagram</li>
+                    </ul>
+                    <div class="card-footer text-center">
+                        <a href="#" class="btn btn-success btn-lg">Select Plan</a>
+                    </div>
+                </div>
+            </div>
+                <div class="col-12 col-md-4">
+                    <div class="card card-outline-warning">
+                        <div class="card-header bg-warning text-white text-center">
+                            <h2>Starter</h2>
+                            <h4>200.Rs/Month</h4>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Prefer if you only take pictures for fun.</p>
+                        </div>
+                    <ul class="list-group">
+                        <li class="list-group-item"><i class="fas fa-paint-brush" aria-hidden="true"></i> Enhance your photos and videoes</li>
+                        <li class="list-group-item"><i class="fab fa-instagram" aria-hidden="true"></i> Share on Instagram</li>
+                        <li class="list-group-item"><i class="fas fa-cogs" aria-hidden="true"></i> Advance Setting</li>
+                    </ul>
+                    <div class="card-footer text-center">
+                        <a href="#" class="btn btn-warning btn-lg">Select Plan</a>
+                    </div>
+                </div>
+            </div>
+                <div class="col-12 col-md-4">
+                    <div class="card card-outline-danger">
+                        <div class="card-header bg-danger text-white text-center">
+                            <h2>Starter</h2>
+                            <h4>1000.Rs/Month</h4>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Prefer if you only take pictures for fun.</p>
+                        </div>
+                    <ul class="list-group">
+                        <li class="list-group-item"><i class="fas fa-paint-brush" aria-hidden="true"></i> Enhance your photos and videoes</li>
+                        <li class="list-group-item"><i class="fab fa-instagram" aria-hidden="true"></i> Share on Instagram</li>
+                        <li class="list-group-item"><i class="fas fa-cogs" aria-hidden="true"></i> Advance Setting</li>
+                        <li class="list-group-item"><i class="fas fa-cloud" aria-hidden="true"></i> Cloud Storage</li>
+                    </ul>
+                    <div class="card-footer text-center">
+                        <a href="#" class="btn btn-danger btn-lg">Select Plan</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </section>
+            <section id="section-Reviews">
+                <h2 class="display-4 text-center">Reviews</h2>
+                <div class="row">
+                <div class="col-12 col-sm-6 col-md-3 p-3">
+                    <blockquote class="blockquote">
+                    <p><i class="fas fa-quote-left text-secondary"></i> This is the best camera app I have ever tried.I highly recommend cameo! <i class="fas fa-quote-right text-secondary"></i></p>
+                    <footer class="blockquote-footer">Rahul More <time datetime="2017-06-15T14:35">(June 15 2017 14:35)</time> </footer>
+                </blockquote>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 p-3">
+                <blockquote class="blockquote">
+                    <p><i class="fas fa-quote-left text-secondary"></i> This is the best camera app I have ever tried.I highly recommend cameo! Lorem ipsum dolor sit amet consectetur. <i class="fas fa-quote-right text-secondary"></i></p>
+                    <footer class="blockquote-footer">Rakesh Kumar Bind <time datetime="2017-06-15T14:35">(Aug 05 2019 14:35)</time> </footer>
+                </blockquote>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 p-3">
+                <blockquote class="blockquote">
+                    <p><i class="fas fa-quote-left text-secondary"></i> This is the best camera app I have ever tried.I highly recommend cameo! <i class="fas fa-quote-right text-secondary"></i></p>
+                    <footer class="blockquote-footer">Rahul More <time datetime="2017-06-15T14:35">(June 15 2017 14:35)</time> </footer>
+                </blockquote>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 p-3">
+                <blockquote class="blockquote">
+                    <p><i class="fas fa-quote-left text-secondary"></i> This is the best camera app I have ever tried.I highly recommend cameo! <i class="fas fa-quote-right text-secondary"></i></p>
+                    <footer class="blockquote-footer">Rahul More <time datetime="2017-06-15T14:35">(June 15 2017 14:35)</time> </footer>
+                </blockquote>
+                </div>
+            </div>
+            </section>
+        </div>
+        <section class="bg-secondary">
+        <div class="container pb-5">
+            <form class="text-white">
+                <h2 class="text-center pt-5">Sign-up for newsletter</h2>
+                <p class="text-center">Receive the latest news and offers by signing up to our newsletter.</p>
+                <div class="row">
+                    <div class="form-group col-12 col-sm-6">
+                        <label for="input-name" class="sr-only">Your Name:</label>
+                        <input type="text" class="form-control" placeholder="Firstname Lastname" id="input-name">
+                    </div>
+                    <div class="form-group col-12 col-sm-6">
+                        <label for="input-email" class="sr-only">Your Email:</label>
+                        <input type="email" class="form-control" placeholder="Email" id="input-email">
+                    </div>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="checkbox" class="form-check-input" id="input-terms" value="terms"> 
+                        I have read and accept the <a href="#" data-toggle="modal" data-target="#modal"> terms and condittions.</a>              
+                    </label>
+                </div>
+                <div class="d-flex justify-content-between pt-2">
+                    <small>You can unsubscribe from the mailing list at any time.</small>
+                    <button type="submit" class="btn btn-dark">Sign Up</button>
+                </div>
+                <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modalTitle" aria-hidden="true"">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="modalTitle">Terms and conditions</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi excepturi ratione suscipit vel enim cupiditate atque ex corporis quibusdam obcaecati corrupti deleniti quisquam sed ab voluptatum, quae culpa? Quasi, dolorem!
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </form>
+        </div>
+        </section>
+        <footer>
+            <div class="container py-3 py-sm-5">
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-lg-3">
+                    <h6>Quick links</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">What's new?</a></li>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">My account</a></li>
+                        <li><a href="#">Cancel subscription</a></li>
+                    </ul>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                    <h6>Information</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Jobs</a></li>
+                        <li><a href="#">Press info</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Partnership</a></li>
+                    </ul>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                    <h6>Follow us</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#"><i class="fab fa-facebook text-primary"></i> Facebook</a></li>
+                        <li><a href="#"><i class="fab fa-instagram text-primary"></i> Instagram</a></li>
+                        <li><a href="#"><i class="fab fa-twitter text-primary"></i> Twitter</a></li>
+                        <li><a href="#"><i class="fab fa-youtube text-primary"></i> youtube</a></li>
+                        <li><a href="#"><i class="fab fa-linkedin text-primary"></i> LinkedIn</a></li>
+                    </ul>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                    <h6>Our location:</h6>
+                    <address>
+                        <strong>Cameo</strong><br>
+                        350 5th Avenue<br>
+                        India , Mumbai-71<br>
+                        <abbr title="Telephone"><i class="fas fa-phone text-primary"></i></abbr><a href="tel:+9145421335"> (91) 73945-45665</a><br>
+                        <abbr title="Mail"></abbr><a href="mailto:info@cameo.com"><i class="fas fa-inbox"></i> info@cameo.com</a>
+                    </address>
+                    </div>
+                 </div>   
+                <div class="row">
+                <div class="col-12 col-sm-9">
+                    <ul class="list-inline">
+                    <li class="list-inline-item">&copy; 2019 Cameo, Inc.</li>
+                    <li class="list-inline-item">All rights reserved.</li>
+                    <li class="list-inline-item"><a href="#" data-toggle="modal" data-target="#modal">Terms of use and privacy policy</a></li>
+                </ul>
+                </div>
+                <div class="col-12 col-sm-3">
+                <div class="dropdown dropup">
+                    <button class="btn btn-secondary btn-sm dropdown-toggle" id="dropdownToggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Change language</button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a href="#" class="dropdown-item small px-1">English</a>
+                        <a href="#" class="dropdown-item small px-1">Hindi</a>
+                        <a href="#" class="dropdown-item small px-1">German</a>
+                        <a href="#" class="dropdown-item small px-1">Japnense</a>
+                    </div>
+                </div>
+                </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="js/all.min.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/16.1.3/smooth-scroll.min.js" integrity="sha512-HYG9E+RmbXS7oy529Nk8byKFw5jqM3R1zzvoV2JnltsIGkK/AhZSzciYCNxDMOXEbYO9w6MJ6SpuYgm5PJPpeQ==" crossorigin="anonymous"></script>
+        <script>
+            $(function(){
+                var scroll = new SmoothScroll('a[href*="#section-"]');
+            })
+        </script>
+</body>
+
+</html>
